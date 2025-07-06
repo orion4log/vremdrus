@@ -1,0 +1,43 @@
+*{margin: 0;padding: 0;}
+h3{text-align: center; font-weight: bold;}
+section{
+font-size: 21px;
+font-family: 'Times New Roman', Times, serif;
+}
+::-webkit-scrollbar{ display: none;}
+.page1{background-color: rgb(211, 235, 189);}
+.page2{background-color: rgb(196, 235, 207);}
+.page3{background-color: rgb(200, 188, 237);}
+.page4{background-color: rgb(183, 229, 144);}
+.page5{background-color: rgb(189, 240, 238);}
+.page6{background-color: rgb(185, 194, 227);}
+.page7{background-color: rgb(183, 229, 144);}
+.page8{background-color: rgb(156, 202, 211);}
+.page9{background-color: rgb(196, 192, 227);}
+
+a{text-decoration: none; }
+.moystar{ width: 80px;  height: 35px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    outline: auto;
+    border: 1px dashed white;
+    border-radius: 2rem;
+}
+.moystar:hover {
+    color: rgb(16, 80, 9);
+    border: 3px solid white;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 2px;
+    box-shadow: 0px 7px 10px rgb(105, 115, 221);
+}
+
+*{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
