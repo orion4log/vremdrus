@@ -14,14 +14,14 @@ padding: 0;
 --dur2: 6s;
 font-size: calc(16px + (32 - 16)*(100vw - 320px)/(2560 - 320));
 }
-body {
+/* body {
 background: #ecf0f3;
 color: var(--fg);
 display: flex;
 font: 1em/1.5 Hind, sans-serif;
 flex-direction: column;
 height: 100vh;
-}
+} */
 main {
 margin: auto;
 }
@@ -85,8 +85,6 @@ animation: appear2 var(--dur1) var(--dur1) steps(1,start) infinite;
 .status__dot:nth-child(3) {
 animation: appear3 var(--dur1) var(--dur1) steps(1,start) infinite;
 }
-
-
 /* Animations */
 @keyframes largePopOut {
 from, 20% {
